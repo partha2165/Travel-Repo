@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+body, html{
+    overflow-x: hidden;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+}
+.navbar ul{
+    list-style: none;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.nav-links li{
+    margin: 0 30px;
+}
+.nav-links li a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(Assets/header-bg.png);
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.header-container{
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+.header-container h2{
+    font-size: 4vmin;
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background-color: #fc036b;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.header-container h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.header-container a{
+    text-decoration: none;
+}
+.btn{
+   padding: 8px 15px; 
+   background-color: #fc036b;
+   border-radius: 30px;
+   color: whitesmoke;
+}
+.active {
+    color: #fc036b;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.menu-btn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+}
+/*Event Start*/
+.event-container{
+    width: 80%;
+    margin: 80px auto;
+}
+.event-contant h3{
+    text-align: center;
+    font-size: 4vmin;
+    color: rgb(73,73,126);
+}
+.image-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.image-container .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image-container .card img{
+    width: 80%;
+}
+.event-container .image-container{
+    margin-top: 50px;
+}
+.card h4{
+    font-size: 3vmin;
+    color: #484872;
+    margin: 20px auto;
+}
+.card p{
+    color: #7c7c7c;
+    padding: 0px 55px;
+}
+.event-container .btn{
+    margin-top: 30px;
+    
+}
+.event-container a{
+    text-decoration: none;
+}
+/*Explore Start*/
+.xplore-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(Assets/bg2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.xplore-content{
+    width: 60%;
+    padding: 50px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.xplore-content h1{
+    font-size: 7vmin;
+    margin: 50px;
+    
+
+}
+.xplore-content .line{
+    margin-bottom: 50px;
+}
+.xplore-content p{
+    color: rgb(221,221,221);
+}
+.xplore-content .btn{
+    margin-top: 40px;
+}
+/*tours*/
+.content-col .image-col{
+    display: flex;
+    flex-wrap: wrap;
+}
+.image-col img{
+    width: 300px;
+}
